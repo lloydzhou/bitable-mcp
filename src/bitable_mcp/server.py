@@ -13,7 +13,7 @@ mcp = FastMCP(
 def connection_factory():
     personal_base_token = os.environ['PERSONAL_BASE_TOKEN']
     app_token = os.environ['APP_TOKEN']
-    db_url = f'bitable+pybitable://:{personal_base_token}@open.feishu.cn/{app_token}'
+    db_url = f'bitable+pybitable://:{personal_base_token}@base-api.feishu.cn/{app_token}'
     return Connection(db_url)
 
 conn_pool = ConnectionPool(
