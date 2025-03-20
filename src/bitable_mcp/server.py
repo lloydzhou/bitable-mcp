@@ -57,8 +57,12 @@ def describe_table(name: str) -> list[str]:
 def read_query(sql: str) -> list[str]:
     with conn_pool.connect() as connection:
         cursor = connection.cursor()
-        result = cursor.execute(sql).fetchall()
-        return json.dumps(result)
+        records = cursor.execute(sql).fetchall()
+        columns = [t[0] for t in cursor.description or []]
+        return json.dumps({
+            "columns": columns,
+            "records": records,
+        })
 
 if __name__ == "__main__":    
     mcp.run()
