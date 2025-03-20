@@ -137,8 +137,8 @@ def install() -> None:
     # print("----------update", command, args, env_dict)
 
     if update_claude_config(
-        command,
         name,
+        command,
         args,
         env_vars=env_dict,
     ):

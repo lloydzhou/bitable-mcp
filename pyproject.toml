@@ -1,6 +1,6 @@
 [project]
 name = "bitable-mcp"
-version = "0.2.0"
+version = "0.2.1"
 description = "This MCP server provides access to Lark bitable through the Model Context Protocol."
 readme = "README.md"
 requires-python = ">=3.10"
