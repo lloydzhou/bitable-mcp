@@ -1,8 +1,18 @@
 # Bitable MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@lloydzhou/bitable-mcp)](https://smithery.ai/server/@lloydzhou/bitable-mcp)
+
 This MCP server provides access to Lark Bitable through the Model Context Protocol. It allows users to interact with Bitable tables using predefined tools.
 
 ## One click installation & Configuration
+
+### Installing via Smithery
+
+To install Bitable Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@lloydzhou/bitable-mcp):
+
+```bash
+npx -y @smithery/cli install @lloydzhou/bitable-mcp --client claude
+```
 
 ### Claude 
 

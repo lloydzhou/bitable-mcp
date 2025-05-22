@@ -1,0 +1,24 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: "bitable-mcp", args: [], env: { PERSONAL_BASE_TOKEN: config.personalBaseToken, APP_TOKEN: config.appToken } })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - personalBaseToken
+      - appToken
+    properties:
+      personalBaseToken:
+        type: string
+        description: Lark Bitable personal base token
+      appToken:
+        type: string
+        description: Lark Bitable app token
+  exampleConfig:
+    personalBaseToken: your_personal_base_token
+    appToken: your_app_token
