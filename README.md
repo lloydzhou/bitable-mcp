@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/lloydzhou-bitable-mcp-badge.png)](https://mseep.ai/app/lloydzhou-bitable-mcp)
+
 # Bitable MCP Server
 
 This MCP server provides access to Lark Bitable through the Model Context Protocol. It allows users to interact with Bitable tables using predefined tools.
