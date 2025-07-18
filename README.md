@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/lloydzhou-bitable-mcp-badge.png)](https://mseep.ai/app/lloydzhou-bitable-mcp)
+
 # Bitable MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@lloydzhou/bitable-mcp)](https://smithery.ai/server/@lloydzhou/bitable-mcp)
