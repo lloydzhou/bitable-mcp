@@ -6,6 +6,10 @@
 
 This MCP server provides access to Lark Bitable through the Model Context Protocol. It allows users to interact with Bitable tables using predefined tools.
 
+<a href="https://glama.ai/mcp/servers/@lloydzhou/bitable-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@lloydzhou/bitable-mcp/badge" alt="Bitable Server MCP server" />
+</a>
+
 ## One click installation & Configuration
 
 ### Installing via Smithery
