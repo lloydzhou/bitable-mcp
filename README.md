@@ -2,7 +2,7 @@
 
 # Bitable MCP Server
 
-[![smithery badge](https://smithery.ai/badge/@lloydzhou/bitable-mcp)](https://smithery.ai/server/@lloydzhou/bitable-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.lloydzhou/bitable-mcp)](https://lightnow.ai/servers/io.github.lloydzhou/bitable-mcp)
 
 This MCP server provides access to Lark Bitable through the Model Context Protocol. It allows users to interact with Bitable tables using predefined tools.
 
